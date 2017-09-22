@@ -1,0 +1,125 @@
+body {
+    width: 100% !important;
+    line-height: 20px;
+}
+
+p {
+    margin: 0 0 10px 0;
+}
+
+
+.row {
+    width: 100%;
+    max-width: 5020px;
+    margin: 0;
+}
+.row:before, .row:after {
+    content: " ";
+    display: table;
+}
+
+.column, .columns {
+    position: relative;
+    padding: 0 5px;
+    min-height: 1px;
+    float: left;
+}
+
+.print-hidden{
+    display:none;
+}
+
+.print-only{
+    display:block;
+}
+
+#about {
+    background: #2B2B2B;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    margin-bottom: 5px;
+    overflow: hidden;
+}
+
+#about .main-col p {
+    margin: 0;
+}
+
+
+#about .contact-details{
+    width: 48%;
+}
+#about .download{
+    width: 48%;
+}
+
+.profile-left{
+    line-height: 18px;
+}
+
+#resume {
+    background: #fff;
+    padding-top: 0;
+    padding-bottom: 5px;
+    overflow: hidden;
+}
+
+#resume .three{
+    width: 23%;
+}
+
+#resume .nine{
+    width: 76%;
+}
+
+#resume .main-col {
+    padding-right: 0;
+}
+
+#resume h3 {
+    font-size: 14px;
+    margin-bottom: 0;
+    line-height: 18px;
+}
+
+#resume .info {
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    font-size: 12px;
+    line-height: 20px;
+    font-family: librebaskerville-italic, serif;
+    color: #6E7881;
+    margin-bottom: 2px;
+    margin-top: 0px;
+}
+
+
+.education, .work {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #E8E8E8;
+}
+
+
+.work h4 {
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 3px;
+}
+
+.skill h4 {
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 3px;
+}
+
+.skill {
+
+    line-height: 14px;
+
+}
